@@ -1,1 +1,41 @@
 
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>خدمة التوصيل</title>
+  <style>
+    body { font-family: Tahoma, sans-serif; direction: rtl; text-align: center; }
+    .section { border: 1px solid #ccc; margin: 20px; padding: 20px; border-radius: 10px; }
+    h2 { color: #2c3e50; }
+    button { padding: 10px 20px; margin: 10px; border: none; background: #3498db; color: white; border-radius: 5px; cursor: pointer; }
+    button:hover { background: #2980b9; }
+  </style>
+</head>
+<body>
+  <h1>منصة التوصيل</h1>
+
+  <!-- قسم العميل -->
+  <div class="section">
+    <h2>العميل</h2>
+    <p>إرسال طلب جديد</p>
+    <button onclick="window.location.href='رابط_النموذج_للعميل'">إرسال الطلب</button>
+    <button onclick="window.location.href='https://wa.me/رقم_الواتساب'">تواصل عبر واتساب</button>
+  </div>
+
+  <!-- قسم المتجر -->
+  <div class="section">
+    <h2>المتجر</h2>
+    <p>تأكيد الطلبات المستلمة</p>
+    <button onclick="window.location.href='رابط_النموذج_للمتجر'">تأكيد الطلب</button>
+  </div>
+
+  <!-- قسم السائق -->
+  <div class="section">
+    <h2>السائق</h2>
+    <p>تحديث حالة التوصيل</p>
+    <button onclick="window.location.href='رابط_النموذج_للسائق'">تحديث الحالة</button>
+  </div>
+
+</body>
+</html>
